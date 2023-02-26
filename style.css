@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+@font-face {
+    font-family: Mono;
+    src: url("./Space_Mono/SpaceMono-Regular.ttf");
+}
+
+.board {
+    width: 500px;
+    height: 250px;
+    display: flex;
+    margin: 30% auto;
+    flex-direction: row;
+    align-items: center;
+    background: #163c15;
+    border: 5px solid #834108;
+    justify-content: space-evenly;
+}
+
+.card {
+    width: 150px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    background: #FFFFFF;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.card .color-code {
+    color: #808080;
+    font-family: Mono;
+}
+
+.card .color {
+    width: 130px;
+    height: 150px;
+    background: #0a122a;
+}
+
+.card:nth-child(2) .color {
+    background: #698f3f;
+}
+
+.card:last-child .color {
+    background: #e6e6fa;
+}
+
