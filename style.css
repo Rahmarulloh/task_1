@@ -13,7 +13,7 @@
     width: 500px;
     height: 250px;
     display: flex;
-    margin: 30% auto;
+    margin: 16% auto;
     flex-direction: row;
     align-items: center;
     background: #163c15;
@@ -49,4 +49,3 @@
 .card:last-child .color {
     background: #e6e6fa;
 }
-
